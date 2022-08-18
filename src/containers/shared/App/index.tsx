@@ -20,7 +20,7 @@ const Home = Loadable({
     loading: PageLoading
 })
 const Login = Loadable({
-    loader: () => import(/* webpackChunkName: "login" */ '@views/Login'),
+    loader: () => import(/* webpackChunkName: "login" */ '@views/Canvas/Like'),
     loading: PageLoading
 })
 
